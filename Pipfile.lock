@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1994dd6bfc0081a13312a8524d63535fdf9b76a2cbd0be0d5e6ea01fa799ba53"
+            "sha256": "b34a21d4fa0040770bbf0d68fccb0b37944ff09c995d9c4fdb1baff26ff9e4a4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -62,6 +62,14 @@
             "index": "pypi",
             "version": "==3.8.1"
         },
+        "django-filter": {
+            "hashes": [
+                "sha256:dee5dcf2cea4d7f767e271b6d01f767fce7500676d5e5dc58dac8154000b87df",
+                "sha256:e3c52ad83c32fb5882125105efb5fea2a1d6a85e7dc64b04ef52edbf14451b6c"
+            ],
+            "index": "pypi",
+            "version": "==23.1"
+        },
         "djangorestframework": {
             "hashes": [
                 "sha256:579a333e6256b09489cbe0a067e66abe55c6595d8926be6b99423786334350c8",
@@ -69,6 +77,14 @@
             ],
             "index": "pypi",
             "version": "==3.14.0"
+        },
+        "drf-nested-routers": {
+            "hashes": [
+                "sha256:01aa556b8c08608bb74fb34f6ca065a5183f2cda4dc0478192cc17a2581d71b0",
+                "sha256:996b77f3f4dfaf64569e7b8f04e3919945f90f95366838ca5b8bed9dd709d6c5"
+            ],
+            "index": "pypi",
+            "version": "==0.93.4"
         },
         "mysqlclient": {
             "hashes": [
@@ -85,10 +101,10 @@
         },
         "pytz": {
             "hashes": [
-                "sha256:8a8baaf1e237175b02f5c751eea67168043a749c843989e2b3015aa1ad9db68b",
-                "sha256:a27dcf612c05d2ebde626f7d506555f10dfc815b3eddccfaadfc7d99b11c9a07"
+                "sha256:1d8ce29db189191fb55338ee6d0387d82ab59f3d00eac103412d64e0ebd0c588",
+                "sha256:a151b3abb88eda1d4e34a9814df37de2a80e301e68ba0fd856fb9b46bfbbbffb"
             ],
-            "version": "==2023.2"
+            "version": "==2023.3"
         },
         "sqlparse": {
             "hashes": [
@@ -100,11 +116,11 @@
         },
         "tzdata": {
             "hashes": [
-                "sha256:905ae9e6744dd9ef5ce94d2aaa2dd00282fee38b670b2133407f23c388f110a1",
-                "sha256:c3b51b235b07f9f1889089c2264bcbeaaba260a63f89bea09e350ea4205eb95f"
+                "sha256:11ef1e08e54acb0d4f95bdb1be05da659673de4acbd21bf9c69e94cc5e907a3a",
+                "sha256:7e65763eef3120314099b6939b5546db7adce1e7d6f2e179e3df563c70511eda"
             ],
             "markers": "sys_platform == 'win32'",
-            "version": "==2023.2"
+            "version": "==2023.3"
         }
     },
     "develop": {}
