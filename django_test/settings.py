@@ -38,10 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'playground',
     'debug_toolbar',
     'django_filters',
+    'djoser',
     'store',
+    'playground',
     'store_custom',
     'tags',
     'likes'
@@ -140,5 +141,17 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
-    'COERCE_DECIMAL_TO_STRING': False 
+    'COERCE_DECIMAL_TO_STRING': False,
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
+SIMPLE_JWT = {
+   'AUTH_HEADER_TYPES': ('JWT',),
+}
+
+DJOSER = {
+    'SERIALIZERS':{
+        'user_create':'core.serializer.UserCreateSerializer'
+    }
 }
