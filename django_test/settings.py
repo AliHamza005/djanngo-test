@@ -43,9 +43,9 @@ INSTALLED_APPS = [
     'djoser',
     'store',
     'playground',
-    'store_custom',
     'tags',
-    'likes'
+    'likes',
+    'core'
 ]
 MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
