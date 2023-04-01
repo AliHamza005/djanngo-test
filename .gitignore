@@ -1,3 +1,9 @@
 
 *.pyc
+core/__pycache__
+core/migrations
+django_test/__pycache__
 store/migrations
+store/__pycache__
+core/__pycache__
+core/migrations
